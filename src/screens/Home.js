@@ -191,17 +191,17 @@ function Home() {
     // console.log("hello")
   };
 
-  useEffect(() => {
-    (async () => {
-      if (account) {
-        try {
-          getSalePrice();
-        } catch (error) {
-          console.log(error);
-        }
-      }
-    })();
-  }, [account]);
+  // useEffect(() => {
+  //   (async () => {
+  //     if (account) {
+  //       try {
+  //         getSalePrice();
+  //       } catch (error) {
+  //         console.log(error);
+  //       }
+  //     }
+  //   })();
+  // }, [account]);
 
   const settings = {
     slidesToShow: sliderImages.length - 1,
