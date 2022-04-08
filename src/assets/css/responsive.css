@@ -1,0 +1,41 @@
+@media (max-width: 991px) {
+  .slider img {
+    width: 107px !important;
+  }
+
+  .main-flex {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .right-form {
+    padding: 20px;
+  }
+
+  .right-form h2,
+  .right-form h3 {
+    font-size: 16px;
+  }
+
+  .timer-inner {
+    padding: 10px 20px;
+  }
+
+  .form-box h1 {
+    font-size: 30px;
+  }
+
+  .form-box {
+    padding: 20px;
+  }
+
+  .price-per-nft .price h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 992px) {
+  .main-flex {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+[
+  "constructor()",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function SalePrice() view returns (uint256)",
+  "function addressMintedBalance(address) view returns (uint256)",
+  "function buyToken(uint256) payable",
+  "function getAmount(uint256) view returns (uint256)",
+  "function getaddressMintedBalance(address) view returns (uint256)",
+  "function maxSupply() view returns (uint256)",
+  "function owner() view returns (address)",
+  "function renounceOwnership()",
+  "function setSalePrice(uint256)",
+  "function setmaxSupply(uint256)",
+  "function settotal_supply(uint256)",
+  "function total_supply() view returns (uint256)",
+  "function transferOwnership(address)"
+]

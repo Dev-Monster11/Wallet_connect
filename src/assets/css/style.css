@@ -1,0 +1,248 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white) !important;
+  margin: 0 !important;
+}
+
+p {
+  color: var(--white) !important;
+  margin: 0 !important;
+}
+
+.custom-btn {
+  box-shadow: 0 0 10px 2px var(--white);
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.custom-btn-sm {
+  box-shadow: 0 0 10px 2px var(--white);
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.main {
+  min-height: 100vh;
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-flex {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 800px;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  max-width: 400px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.slider img {
+  width: 400px !important;
+}
+
+.right-form {
+  flex-basis: 50%;
+}
+
+.right-form h2 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.right-form h3 {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.supply-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.supply-details span {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.timer {
+  padding-top: 20px;
+}
+
+.timer h2 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer-inner {
+  padding: 12px 30px;
+  background: rgb(11 11 8 / 80%);
+  border-radius: 10px;
+}
+
+.form-box {
+  padding: 32px;
+  background: rgb(11 11 8 / 80%);
+  border-radius: 10px;
+}
+
+.form-box h1 {
+  font-size: 45px !important;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px !important;
+}
+
+.price-per-nft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+  border: 1px solid var(--white);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.price-per-nft img {
+  width: 82px;
+  height: 82px;
+  border-radius: 10px;
+}
+
+.price-per-nft .price {
+  text-align: end;
+}
+
+.price-per-nft .price p {
+  font-weight: 300;
+}
+
+.price-per-nft .price h3 {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.min-max {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 12px;
+  background: rgba(123, 123, 123, 0.41);
+  border-radius: 10px;
+}
+
+.increament {
+  display: flex;
+  align-items: center;
+}
+
+.value-button {
+  display: inline-block;
+  color: var(--white);
+  font-size: 25px;
+  line-height: 0;
+  margin: 0px;
+  height: 4px;
+  text-align: center;
+  vertical-align: middle;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+input.number {
+}
+
+.min-max input.number {
+  outline: none;
+  color: var(--white);
+  flex-basis: 30%;
+  text-align: center;
+  border: none;
+  margin: 0px;
+  width: 50px;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.total-mint {
+  border-top: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+  padding: 15px 12px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-mint p {
+  font-size: 22px;
+}
+
+.mint-num {
+  color: var(--white);
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.mint-num span {
+  padding-right: 5px;
+}
+
+.social {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    z-index: 10;
+}
+
+.social li a {
+    color: #fff;
+    color: var(--white);
+    padding: 0 20px;
+    font-size: 2rem;
+}
