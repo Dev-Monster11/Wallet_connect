@@ -193,17 +193,17 @@ function Home() {
     handleShow1();
   };
 
-  useEffect(() => {
-    (async () => {
-      if (account) {
-        try {
-          getSalePrice();
-        } catch (error) {
-          console.log(error);
-        }
-      }
-    })();
-  }, [account]);
+  // useEffect(() => {
+  //   (async () => {
+  //     if (account) {
+  //       try {
+  //         getSalePrice();
+  //       } catch (error) {
+  //         console.log(error);
+  //       }
+  //     }
+  //   })();
+  // }, [account]);
 
   const settings = {
     responsive: [
