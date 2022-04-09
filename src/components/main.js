@@ -153,6 +153,45 @@ export default function Main() {
       //     walletName: 'metamask'
       //   }]
       // }
+      walletSelect: {
+        wallets:[
+          {
+            walletName: "metamask",
+            preferred: true,
+          },
+          {
+            walletName: "trust",
+            preferred: true,
+          },
+          {
+            walletName: 'walletConnect',
+            preferred: true,
+            infuraKey: 'cea9deb6467748b0b81b920b005c10c1',
+            bridge: 'https://bridge.walletconnect.org',
+          },
+          {
+            walletName: 'torus',
+          },
+          {
+            walletName: 'tally',
+          },
+          {
+            walletName: 'status',
+          },
+          {
+            walletName: 'alphawallet',
+          },
+          {
+            walletName: 'atoken',
+          },
+          {
+            walletName: 'blockwallet',
+          },
+          {
+            walletName: 'coinbase',
+          }
+        ]
+      }
     })
     await onboard.walletSelect()
     await onboard.walletCheck()
